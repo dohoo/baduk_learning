@@ -21,7 +21,7 @@ RESIGN_THRESHOLD = 0.05
 AI_VS_AI_DELAY = 100 # ms 단위로 tkinter.after에 사용
 
 # --- 1. 모델 로드 ---
-MODEL_PATH = '300.h5'
+MODEL_PATH = 'model/100.h5'
 policy_model = None
 
 if not os.path.exists(MODEL_PATH):
